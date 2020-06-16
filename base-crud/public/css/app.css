@@ -1,0 +1,18 @@
+
+header {
+  height: 25vh;
+  background: purple;
+  color: white;
+}
+
+footer {
+  height: 25vh;
+  background: orange;
+  color: white;
+}
+
+.main {
+  height: 50vh;
+  background: black;
+  color: white;
+}
