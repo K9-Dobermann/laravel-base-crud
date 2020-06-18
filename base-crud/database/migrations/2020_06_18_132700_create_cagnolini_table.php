@@ -18,9 +18,9 @@ class CreateCagnoliniTable extends Migration
             $table->string("nome");
             $table->string("cognome");
             $table->string("address");
-            $table->integer("code");
+            $table->tinyInteger("code");
             $table->string("state");
-            $table->integer("phone_number");
+            $table->tinyInteger("phone_number");
             $table->string("role");
             $table->timestamps();
         });

@@ -12,6 +12,6 @@ class CagnolinoSeeder extends Seeder
      */
     public function run()
     {
-        factory(Cagnolino::class, 50) ->create();
+        factory(Cagnolino::class, 30) -> create();
     }
 }
