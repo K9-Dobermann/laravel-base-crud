@@ -9,7 +9,7 @@ class CagnoliniController extends Controller
 {
     public function index(){
 
-        $cagnolini = Cagnolini::all();
+        $cagnolini = Cagnolino::all();
         return view("home", compact("cagnolini"));
     }
 }
