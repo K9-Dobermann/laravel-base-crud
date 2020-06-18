@@ -15,11 +15,14 @@ class CreateCagnoliniTable extends Migration
     {
         Schema::create('cagnolini', function (Blueprint $table) {
             $table->id();
-            $table->string('nome');
-            $table->string('tipo');
-            $table->decimal('altezza');
-            $table->integer('peso');
-
+            $table->string("nome");
+            $table->string("cognome");
+            $table->string("address");
+            $table->integer("code");
+            $table->string("state");
+            $table->integer("phone_number");
+            $table->string("role");
+            $table->timestamps();
         });
     }
 

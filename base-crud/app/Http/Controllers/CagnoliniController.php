@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Cagnolini;
+use App\Cagnolino;
 
 class CagnoliniController extends Controller
 {

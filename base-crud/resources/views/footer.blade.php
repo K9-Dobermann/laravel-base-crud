@@ -1,3 +1,3 @@
 <footer>
-    ciao sono il footer,che famo??
+    ciao sono il footer??
 </footer>

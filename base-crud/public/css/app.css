@@ -1,18 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-header {
+body header {
   height: 25vh;
   background: purple;
   color: white;
 }
 
-footer {
+body footer {
   height: 25vh;
   background: orange;
   color: white;
 }
 
-.main {
+body .main {
   height: 50vh;
   background: black;
-  color: white;
+  color: red;
 }
+
