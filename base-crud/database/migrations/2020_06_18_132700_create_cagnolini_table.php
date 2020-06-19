@@ -14,15 +14,16 @@ class CreateCagnoliniTable extends Migration
     public function up()
     {
         Schema::create('cagnolini', function (Blueprint $table) {
-            $table->id();
-            $table->string("nome");
-            $table->string("cognome");
-            $table->string("address");
-            $table->tinyInteger("code");
-            $table->string("state");
-            $table->tinyInteger("phone_number");
-            $table->string("role");
-            $table->timestamps();
+
+            $table -> id();
+            $table ->string("nome");
+            $table ->string("cognome");
+            $table ->string("address");
+            $table ->string("code");
+            $table ->string("state");
+            $table ->string("phone_number");
+            $table ->string("role");
+            $table -> timestamps();
         });
     }
 
