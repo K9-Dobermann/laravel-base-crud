@@ -17,19 +17,45 @@ body footer {
 }
 
 body .centrale {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
   height: 500px;
   background: black;
   color: red;
 }
 
 body .spaziosingolo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
   background: grey;
-  color: orange;
+  color: white;
 }
 
 body .main {
   height: 50vh;
   background: black;
+  color: red;
+}
+
+body h1,
+body h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: blue;
+  padding: 25px;
+  font-size: 40px;
+}
+
+body a {
+  text-decoration: none;
+}
+
+body a:hover {
   color: red;
 }
 

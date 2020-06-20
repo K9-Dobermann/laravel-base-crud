@@ -13,7 +13,14 @@ class CagnoliniController extends Controller
         return view("home", compact("cagnolini"));
     }
     public function show($id){
+
       $cagnolino = Cagnolino::findOrFail($id);
       return view("showCagnolino", compact("cagnolino"));
+      }
+      public function edit($id) {
+
+          $cagnolino = Cagnolino::findOrFail($id);
+          return view("newEdit", compact("cagnolino"));
+
       }
 }

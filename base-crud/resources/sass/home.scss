@@ -11,18 +11,40 @@ body {
 
     }
     .centrale {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
         height: 500px;
         background: black;
         color: red;
     }
     .spaziosingolo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
         background: grey;
-        color: orange;
+        color: white;
     }
     .main {
         height: 50vh;
         background: black;
         color: red;
+    }
+    h1, h2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:blue;
+        padding: 25px;
+        font-size: 40px;
+    }
+    a {
+        text-decoration: none;
+    }
+    a:hover{
+        color:red;
     }
 
 }
