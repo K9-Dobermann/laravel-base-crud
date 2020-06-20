@@ -23,4 +23,21 @@ class CagnoliniController extends Controller
           return view("newEdit", compact("cagnolino"));
 
       }
+      public function update(Request $request, $id) {
+
+         // dd($request -> all());
+         $validatedData = $request -> validate([
+                 'nome' => 'required |min:1 | max:5',
+                 'cognome' => 'required',
+                 'address' => 'required',
+                 'code' => 'required',
+                 'state' => 'required',
+                 'phone_number' => 'required',
+                 'role' => 'required',
+
+ ]);
+        dd($validatedData);
+
+
+    }
 }
