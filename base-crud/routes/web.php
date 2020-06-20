@@ -9,3 +9,5 @@ Route::get('/show_me_cagnolino/{id}', "CagnoliniController@show") ->name("show")
 Route::get('/edit_me/{id}', "CagnoliniController@edit") ->name("edit");
 
 Route::post('/update/{id}', "CagnoliniController@update") ->name("update");
+
+Route::get('/destroy/{id}', "CagnoliniController@destroy") ->name("destroy");

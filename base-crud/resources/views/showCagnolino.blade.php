@@ -7,6 +7,10 @@
 
                <a href="{{ route('edit', $cagnolino['id']) }}">EDIT - FILE</a>
                 <br>
+                
+                @if (session('success'))
+                <h2>{{ session('success') }}</h2>
+                @endif
 
                NOME: {{$cagnolino["nome"]}} <br>
                COGNOME: {{$cagnolino["cognome"]}} <br>
@@ -16,13 +20,10 @@
                PHONE_NUMBER: {{$cagnolino["phone_number"]}} <br>
                ROLE: {{$cagnolino["role"]}} <br>
 
-     <a href="#">DELETE - ME</a>
+               <a href="{{ route('destroy', $cagnolino['id']) }}">DELETE - ME</a>
+                <br>
             <br>
 
-
    </div>
- 
-
-
 
 @endsection
