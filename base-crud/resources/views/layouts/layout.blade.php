@@ -6,9 +6,9 @@
         <title></title>
     </head>
     <body>
-        @include('header')
+        @include('components.header')
         @yield('main')
-        @include('footer')
+        @include('components.footer')
 
     </body>
 </html>

@@ -16,6 +16,17 @@ body footer {
   color: white;
 }
 
+body .centrale {
+  height: 500px;
+  background: black;
+  color: red;
+}
+
+body .spaziosingolo {
+  background: grey;
+  color: orange;
+}
+
 body .main {
   height: 50vh;
   background: black;
